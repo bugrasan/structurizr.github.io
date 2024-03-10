@@ -71,8 +71,8 @@ Permitted children:
 - [!identifiers](#identifiers)
 - [group](#group)
 - [person](#person)
-- [softwareSystem](#softwareSystem)
-- [deploymentEnvironment](#deploymentEnvironment)
+- [softwareSystem](#softwaresystem)
+- [deploymentEnvironment](#deploymentenvironment)
 - [element](#element)
 - [-> (relationship)](#relationship)
 
@@ -223,7 +223,7 @@ Permitted children:
 
 
 - [group](#group)
-- [deploymentGroup](#deploymentGroup)
+- [deploymentGroup](#deploymentgroup)
 - [deploymentNode](#deploymentNode)
 - [-> (relationship)](#relationship)
 
@@ -256,9 +256,9 @@ The following tags are added by default:
 Permitted children:
 
 - [group](#group)
-- [deploymentNode](#deploymentNode) (deployment nodes can be nested)
-- [infrastructureNode](#infrastructureNode)
-- [softwareSystemInstance](#softwareSystemInstance)
+- [deploymentNode](#deploymentnode) (deployment nodes can be nested)
+- [infrastructureNode](#infrastructurenode)
+- [softwareSystemInstance](#softwaresysteminstance)
 - [containerInstance](#containerInstance)
 - [-> (relationship)](#relationship)
 - [description](#description)
